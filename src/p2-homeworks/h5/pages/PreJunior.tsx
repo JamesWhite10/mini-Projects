@@ -1,7 +1,7 @@
 import React from 'react'
 import Dialogs from '../../Dialogs/Dialogs'
 import TodoMini from '../../Todo-mini/Todo-mini'
-import HW3 from '../../h3/HW3'
+import Greetings from '../../Greetings/Greetings'
 import HW4 from '../../h4/HW4'
 
 function PreJunior() {
@@ -9,7 +9,7 @@ function PreJunior() {
         <div>
             <Dialogs/>
             <TodoMini/>
-            <HW3/>
+            <Greetings/>
             <HW4/>
             {/*<HW6/>*/}
 

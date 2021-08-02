@@ -2,7 +2,7 @@ import React from 'react'
 import s from './App.module.css'
 import Dialogs from '../../../p2-homeworks/Dialogs/Dialogs'
 import TodoMini from "../../../p2-homeworks/Todo-mini/Todo-mini";
-import HW3 from '../../../p2-homeworks/h3/HW3';
+import Greetings from '../../../p2-homeworks/Greetings/Greetings';
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
             <div style={{fontSize: "30px", textAlign: "center"}}>Mini projects.</div>
             <Dialogs/>
             <TodoMini/>
-            <HW3/>
+            <Greetings/>
             {/*<HW4/>*/}
             {/*<HW5/>*/}
 
