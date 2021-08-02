@@ -1,0 +1,41 @@
+.button {
+    margin: 20px;
+    width: 68px;
+
+    background: teal;
+    color: gold;
+    outline: none;
+}
+
+.button:focus {
+    outline: red solid 1px;
+}
+
+.button:active {
+    background: red;
+}
+
+.active {
+    background: #335533;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 120px;
+}
+
+.High {
+    color: darkred;
+}
+
+.Middle {
+    color: blue;
+}
+
+.Low {
+    color: white;
+}
