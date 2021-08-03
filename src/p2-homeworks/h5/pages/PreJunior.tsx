@@ -2,7 +2,7 @@ import React from 'react'
 import Dialogs from '../../Dialogs/Dialogs'
 import TodoMini from '../../Todo-mini/Todo-mini'
 import Greetings from '../../Greetings/Greetings'
-import HW4 from '../../h4/HW4'
+import HomemadeInpButCheck from '../../h4/HomemadeInpButCheck'
 
 function PreJunior() {
     return (
@@ -10,7 +10,7 @@ function PreJunior() {
             <Dialogs/>
             <TodoMini/>
             <Greetings/>
-            <HW4/>
+            <HomemadeInpButCheck/>
             {/*<HW6/>*/}
 
         </div>
