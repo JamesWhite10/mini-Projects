@@ -1,7 +1,40 @@
-.someClass {
-
+.greeting {
+    display: flex;
+    align-items: flex-start;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 30px;
+    margin-left: 40px;
 }
+
+.input {
+    margin: 15px;
+    background: cornsilk;
+    border: 3px solid black;
+}
+
+.errorInput {
+    margin: 15px;
+    background: cornsilk;
+    border: 3px solid red;
+    outline: none;
+}
+
+.button {
+    margin: 15px;
+    width: 60px;
+
+    background: blue;
+    color: white;
+    outline: none;
+}
+.button:disabled {
+    background: darkgray;
+}
+
+.count {
+    margin: 15px;
+}
+
