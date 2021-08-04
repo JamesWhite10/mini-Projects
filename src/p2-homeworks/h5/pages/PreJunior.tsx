@@ -2,7 +2,7 @@ import React from 'react'
 import Dialogs from '../../Dialogs/Dialogs'
 import TodoMini from '../../Todo-mini/Todo-mini'
 import Greetings from '../../Greetings/Greetings'
-import HomemadeInpButCheck from '../../h4/HomemadeInpButCheck'
+import HomemadeInpButCheck from '../../HomemadeInpButCheck/HomemadeInpButCheck'
 
 function PreJunior() {
     return (
