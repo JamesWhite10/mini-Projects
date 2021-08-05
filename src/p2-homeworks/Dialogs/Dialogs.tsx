@@ -19,7 +19,7 @@ const messageItem = {
 function Dialogs() {
     return (
         <div>
-               <div style={{fontSize: "20px"}}>Dialogs:</div>
+               <div style={{fontSize: "20px", marginTop: "60px"}}>Dialogs:</div>
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
