@@ -1,0 +1,39 @@
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+    font-family: "Bell MT"
+}
+
+.link:hover {
+    color: crimson;
+}
+
+.active {
+   color: crimson;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+
+    margin: 23px;
+
+    background: crimson;
+}
+
+.header {
+    display: flex;
+
+    width: 440px;
+
+    transition-duration: 500ms;
+    transform: translate(-360px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
