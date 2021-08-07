@@ -1,9 +1,10 @@
 import React from 'react'
+import SelectAndRadio from "../../SelectAndRadio/SelectAndRadio";
 
 function Junior() {
     return (
         <div>
-            Junior
+            <SelectAndRadio/>
         </div>
     )
 }

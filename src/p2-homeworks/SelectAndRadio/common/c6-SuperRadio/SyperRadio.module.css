@@ -1,0 +1,28 @@
+.radio {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    margin-left: 58px;
+    margin-top: 25px;
+
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    background: crimson;
+}
+
+.radio:hover {
+    border: 2px solid white;
+}
+
+.radio:checked {
+    background: black;
+}
+
+.radio:focus {
+    border: 2px solid white;
+}
+
+.label {
+    cursor: pointer;
+}

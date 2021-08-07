@@ -1,0 +1,28 @@
+.select {
+    width: 130px;
+    padding: 5px;
+    margin-left: 160px;
+
+    cursor: pointer;
+}
+
+.select:focus {
+    outline: none;
+    border: 3px solid darkviolet;
+}
+
+.option {
+    color: white;
+    background: black;
+}
+
+.option:checked {
+    background: white;
+    color: black;
+}
+
+.option:hover {
+    box-shadow: 0 0 10px 100px #FED20F inset;
+    transition: all .2s ease-in-out;
+    background: red;
+}
