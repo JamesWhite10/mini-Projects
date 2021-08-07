@@ -3,22 +3,20 @@ import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import SuperButton from '../HomemadeInpButCheck/common/c2-SuperButton/SuperButton'
 import {restoreState, saveState} from './localStorage/localStorage'
 
-function HW6() {
+function EditableSpan() {
     const [value, setValue] = useState<string>('')
 
     const save = () => {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        setValue(restoreState<string>('editable-span-value', ''))
     }
 
     return (
         <div>
-            <hr/>
-            homeworks 6
+            <div style={{fontSize: "20px", marginTop: "60px"}}>EditableSpan:</div>
 
-            {/*should work (должно работать)*/}
             <div>
                 <SuperEditableSpan
                     value={value}
@@ -29,12 +27,8 @@ function HW6() {
             <SuperButton onClick={save}>save</SuperButton>
             <SuperButton onClick={restore}>restore</SuperButton>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
-            <hr/>
         </div>
     )
 }
 
-export default HW6
+export default EditableSpan

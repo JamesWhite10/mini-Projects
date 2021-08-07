@@ -3,6 +3,7 @@ import Dialogs from '../../Dialogs/Dialogs'
 import TodoMini from '../../Todo-mini/Todo-mini'
 import Greetings from '../../Greetings/Greetings'
 import HomemadeInpButCheck from '../../HomemadeInpButCheck/HomemadeInpButCheck'
+import EditableSpan from '../../EditableSpan/EditableSpan'
 
 function PreJunior() {
     return (
@@ -11,8 +12,7 @@ function PreJunior() {
             <TodoMini/>
             <Greetings/>
             <HomemadeInpButCheck/>
-            {/*<HW6/>*/}
-
+            <EditableSpan/>
         </div>
     )
 }
