@@ -37,7 +37,7 @@ function SortPeople() {
     return (
         <div>
             <hr/>
-            <div style={{fontSize: "20px"}}>SortPeople:</div>
+            <div style={{fontSize: "20px"}}>Sort People:</div>
             {finalPeople}
             <div>
                 <SuperButton onClick={sortUp}>sort up</SuperButton>

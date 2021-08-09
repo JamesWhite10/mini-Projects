@@ -19,6 +19,7 @@ const messageItem = {
 function Dialogs() {
     return (
         <div>
+            <hr/>
                <div style={{fontSize: "20px", marginTop: "60px"}}>Dialogs:</div>
             <Message
                 avatar={messageData.avatar}

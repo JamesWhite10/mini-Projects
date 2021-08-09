@@ -41,7 +41,7 @@ function TodoMini() {
     return (
         <div>
             <hr/>
-            <div style={{fontSize: "20px"}}>TodoMini:</div>
+            <div style={{fontSize: "20px"}}>Todo-mini:</div>
 
             {/*should work (должно работать)*/}
             <Affairs

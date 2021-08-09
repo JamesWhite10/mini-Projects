@@ -10,7 +10,7 @@ function SelectAndRadio() {
     return (
         <div>
             <hr/>
-            <div style={{fontSize: "20px"}}>SelectAndRadio:</div>
+            <div style={{fontSize: "20px"}}>Select and Radio:</div>
             <div>
                 <SuperSelect
                     options={arr}
